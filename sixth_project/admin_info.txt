@@ -1,3 +1,7 @@
 name: admin
 mail: admin@gmail.com
+<<<<<<< HEAD
 password:123
+=======
+password:123
+>>>>>>> origin/main
