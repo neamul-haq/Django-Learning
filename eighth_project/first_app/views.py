@@ -27,7 +27,7 @@ def signup(request):
 
 def user_login(request):
     if request.method == 'POST':
-        form = AuthenticationForm(request=request, data=request.POST)
+        form = AuthenticationForm(request=request, data=request.POST)#ekhane(request, request.POST) likhleo hoy
         if form.is_valid():
             name = form.cleaned_data['username']
             userpass = form.cleaned_data['password']
